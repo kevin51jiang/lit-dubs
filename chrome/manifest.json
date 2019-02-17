@@ -1,0 +1,29 @@
+{
+  "name": "LitDubs",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Get the most lit dubs for your videos",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "content_scripts":[
+    {
+      "matches":[
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js":["popup.js"]
+    }
+  ],
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "icons": { 
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+   "128": "images/get_started128.png" 
+  },
+  "browser_action": {},
+  "permissions": [
+    "activeTab"
+  ]
+}
