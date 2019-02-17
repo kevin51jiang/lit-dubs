@@ -1,0 +1,10 @@
+pytube
+gtts
+google-cloud-translate
+google-cloud-texttospeech
+srt
+grpcio
+urllib3
+certifi
+pydub
+Flask
